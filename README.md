@@ -1,7 +1,7 @@
 # KindleDownload
-This script downloads all your kindle books that are available via the "Download and Transfer via USB" function on the Amazon website.
+This script downloads all your kindle books that are available via the "Download and Transfer via USB" function on the Amazon website.  The script automates the clicks necessary to download each book.  
 
-Here are instructions to use the script.
+Here are instructions to use the script.  If you start the script and want to stop it for any reason, just close the browser.
 
 1) Log into Amazon.com
 2) Go to page: https://www.amazon.com/hz/mycd/digital-console/contentlist/booksAll/dateDsc/
