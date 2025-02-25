@@ -25,12 +25,14 @@ Here are instructions to use the script.
 7) Enable persist logging by hitting the gear (hovering over it will display "Console Settings") and then selecting "Perserve logs"
 	- You don't need to do this.  If you don't do this, then logs will be lost when the script moves to the next page of Kindle books
 
-8) Click on the Update the variable "kindleName" in the code by replacing <your Kindle> with the *exact* name of the kindle you want to use to download the books.  
+8) Click on the file "kindledownload.js" and copy the contents using the "Copy raw file" options into your favorite text editor.  Update the variable "kindleName" in the code by replacing <your Kindle> with the *exact* name of the kindle you want to use to download the books.  
 	- To get the exact name, for one book, go to "More actions", then click on "Download & transfer via USB". A dialog will appear with your Kindle's that are eligible to use for Download and Transfer (newer Kindles don't support this feature, I believe).  Copy the name of the Kindle you want to use from this list and paste it.  Make sure there are no spaces at the beginning or end of the text you copied when you paste it.  
-9) NOW RELOAD THE PAGE SO THAT THE DIALOG GOES AWAY 
+9) NOW RELOAD THE PAGE FROM STEP 2 SO THAT THE DIALOG GOES AWAY 
 
-10) Paste the updated code
-11) The script should start and you should start to see output like the following:
+10) Paste the updated code into the command line of the Console window.
+    	- The command line has either a ">" or a ">>" in front of it
+      
+12) The script should start and you should start to see output like the following:
 
 	Processing (178):  The Journey Within: Exploring the Path of Bhakti - Radhanath Swami (B01HHJF542) 
 	Navigated to https://cde-ta-g7g.amazon.com/FionaCDEServiceEngine/FSDownloadContent?type=EBOK&key=B01HHJF542&fsn=G8S1LG13417608QH&device_type=A328XUBPG464LQ&customerId=A1S97B2CUM3EH&authPool=Amazon&ts=1740506532345&signature=KRAQjBrJCdmBnhEm6CHNcKWYu8pNXdIXJHkHx7SYINc=&markerB64=dHlwZTtrZXk7ZnNuO2RldmljZV90eXBlO2N1c3RvbWVySWQ7YXV0aFBvb2w7dHM=&mn=Y29tLmFtYXpvbi5kaWdpdGFsLmRlbGl2ZXJ5LnVybEhNQUMucHJvZA==&ms=1&mt=s
@@ -40,7 +42,7 @@ Here are instructions to use the script.
 	- Note that you may sometimes see "Fail:".  This can happen for legitimate reasons, like you now longer have a library book checked out so it can't be downloaded.  Wait until the script ends.  You will be show a list of successfully downloaded books as well as books that failed download.  You can then investigate.  
 
 
-12) When you're done, make sure that you disable persistance
+13) When you're done, make sure that you disable persistance
 
 A few additional notes:
 
